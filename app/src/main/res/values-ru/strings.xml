@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пивной советник</string>
+    <string name="find_beer">Найти пиво!</string>
+    <string name="brands">Пиво не выбрано</string>
+
+    <string-array name="beer_colors">
+        <item>Светлое</item>
+        <item>Янтароное</item>
+        <item>Коричневое</item>
+        <item>Темное</item>
+    </string-array>
+
+</resources>

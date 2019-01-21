@@ -21,8 +21,8 @@ public class FindBeerActivity extends Activity {
 
         TextView brands =  findViewById(R.id.brands);
         Spinner color =  findViewById(R.id.color);
+
         String beerType = String.valueOf(color.getSelectedItem());
-        //brands.setText(beerType);
         List <String> brandsList = expert.getBrands(beerType);
         StringBuilder brandsFormatted = new StringBuilder();
 
